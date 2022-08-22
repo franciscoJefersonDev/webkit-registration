@@ -1,0 +1,36 @@
+.wk-input-text {
+	border: var(--brd-size) solid var(--brd-color);
+	outline: none;
+	user-select: all;
+	-ms-user-select: all;
+	-moz-user-select: all;
+	-webkit-user-select: all;
+	border-radius: var(--brd-radius);
+	padding: 0.7em;
+}
+.wk-input-text::placeholder {
+	color: var(--ph-color);
+}
+.wk-input-text::-moz-placeholder {
+	color: var(--ph-color);
+}
+.wk-input-text::-webkit-input-placeholder {
+	color: var(--ph-color);
+}
+.wk-input-text::-moz-selection {
+	color: var(--select-color-text);
+	background: var(--select-color);
+}
+.wk-input-text::selection {
+	color: var(--select-color-text);
+	background: var(--select-color);
+}
+.wk-input-text.text-left {
+	text-align: left;
+}
+.wk-input-text.text-center {
+	text-align: center;
+}
+.wk-input-text.text-right {
+	text-align: right;
+} /*# sourceMappingURL=input-text.css.map */
